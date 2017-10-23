@@ -1,0 +1,178 @@
+body {
+  padding:;
+}
+
+.jumbotron {
+	background-color: #000;
+}
+.crossfade > figure {
+  animation: imageAnimation 30s linear infinite 0s;
+  backface-visibility: hidden;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center center;
+  color: transparent;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  width:100% ;
+  z-index: 0;
+  background-color:;
+}
+
+.crossfade > figure:nth-child(1) {
+  background-image: url('../img/1d.jpg');
+  
+}
+.crossfade > figure:nth-child(2) {
+  animation-delay: 11s;
+  background-image: url('../img/2aa.jpg');
+}
+.crossfade > figure:nth-child(3) {
+  animation-delay: 18s;
+  background-image: url('../img/3a.jpg');
+}
+
+
+@keyframes imageAnimation {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  8% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  17% {
+    opacity: 1
+  }
+  
+  100% {
+    opacity: 0
+  }
+}
+
+
+
+
+
+
+#intro{
+	/*padding-top: 20%;
+	padding-bottom: 20%;*/
+	padding: 0;
+	color: #ffffff;
+	background-image:#000;
+	background-color: 
+	background-repeat: ;
+	background-size: ;
+	background-attachment:;
+	/*overlay light blue color#1AA0BB*/
+} 
+
+.bg_ov{
+	background-color:;
+
+	padding-top: 0;
+	padding-bottom: 0;
+	position: relative;
+		
+	
+}
+.bg_ov img {
+	max-width: 50%;
+}
+#wnote {
+	/*set the width of this box later to solve the problem*/
+   position: absolute;
+	top: 15%;
+	left: 1%;
+	right: 1%;
+	
+	border: 2px solid red;
+}
+#main_nav{
+	padding: .5%;
+		font-family: sans-serif;
+		font-weight: bold;
+	background-color: rgba(0,0,0,0);
+	margin: 0;
+	border-radius: 0;
+	border-bottom: #000;
+	border: 2px solid red;
+	color: #ffffff !important;
+
+}
+#main_nav a {
+	color: #ffffff !important;
+}
+#main_nav img#logo {
+	max-width: ;
+	max-height: 150%;}
+
+    #about{
+    	padding-top: 10%;
+    	padding-bottom: 10%;
+    	/*border:solid red;*/
+    	position: relative;
+    	background-color: yellow;
+    }
+   
+ div#about:after{
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 35px solid transparent;
+	border-bottom: 70px solid transparent;
+	border-left: 50px solid #fff;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	transform-origin: top left;
+	transform: rotate(-35deg);
+}
+	#services{
+		padding-top: 7%;
+		padding-bottom: 7%;
+		margin-top:;
+		/*background-image: url(../img/whitediamond.png);*/
+		background-color: yellow;
+		background-attachment: fixed;
+		/*border:solid red;*/
+	}
+	div#services:before{
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 35px solid transparent;
+	border-bottom: 70px solid transparent;
+	border-right: 50px solid #fff;
+	position: absolute;
+	left: 10px;
+	top: 0px;
+	transform-origin: top right;
+	transform: rotate(35deg);
+}
+	#achive{
+		background-color: #F04770;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+	#experience {
+		padding-top: 2%;
+		padding-bottom: 2%;
+	
+	}
+	#academic{
+			padding-bottom: 2%;
+	}
+	#footer {
+		background-color: #F04770;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+	h1,h2,h3,h4,h5,h6 {
+		font-family: sans-serif;
+	}
